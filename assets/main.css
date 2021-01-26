@@ -35,6 +35,12 @@ ul {
     font-family: monospace;
 }
 
+@media (max-width: 400px) {
+    ul {
+        font-size: 1rem;
+    }
+}
+
 ul.times {
     text-align: right;
 }
