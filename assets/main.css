@@ -1,0 +1,65 @@
+html {
+    height: 100%;
+    background: linear-gradient(120deg, rgb(254, 243, 199), rgb(209, 250, 229)) no-repeat;
+}
+
+header, footer {
+    position: absolute;
+    width: 100%;
+    font-family: sans-serif;
+    padding: 1rem;
+}
+
+header {
+    top: 0px;
+}
+
+footer {
+    bottom: 0px;
+}
+
+.wrap {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+ul {
+    font-size: 1.2rem;
+    width: 7rem;
+    padding-right: 0.4rem;
+    font-family: monospace;
+}
+
+ul.times {
+    text-align: right;
+}
+
+li {
+    padding-bottom: 0.2rem;
+}
+
+li.deemphasized {
+    opacity: 0.6;
+}
+
+li.elapsed {
+    opacity: 0.4;
+}
+
+span.am {
+    color: rgb(30, 64, 175);
+}
+
+span.pm {
+    color: rgb(220, 38, 38);
+}
+
+a {
+    color: rgb(30, 64, 175);
+    text-decoration:none;
+}
